@@ -24,8 +24,8 @@ function ProjectsPortion() {
               s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of ablished fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like
               <ul>
                 <ul> 
-                  <a href="https://miguelangelweill.github.io/CarsNotLemons/" target='_blank'>
-                  <img src='https://seohacker.wpengine.com/wp-content/uploads/2011/07/Link-Search.jpg'/> 
+                  <a href="https://miguelangelweill.github.io/CarsNotLemons/" rel="noreferrer" target='_blank'>
+                  <img src='https://seohacker.wpengine.com/wp-content/uploads/2011/07/Link-Search.jpg' alt='CarsNotLemons Project' rel="noreferrer"/> 
                     Visit my site
                   </a>
                 </ul>

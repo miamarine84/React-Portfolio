@@ -35,7 +35,7 @@ Last but not least I'm a former United States Marine and I feel those skills lea
       <div className="particle" />
       <div className="particle" />
       <div className="particle" >
-        <img id='image' src='https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png' alt='React Logo' />
+        <img id='image' src='https://simg.nicepng.com/png/small/80-804192_smartlogic-explores-javascript-react-and-flux-tech.png' alt='React Logo' />
       </div>
       <div className="particle" />
       <div className="particle">
