@@ -1,0 +1,25 @@
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+.navbar {
+    // display: none;
+    font-family: "Share Tech Mono", monospace;
+    font-size: 1.4rem;
+    width: 100%;
+    background-image: radial-gradient(circle, #e5e5e5, #d9d9d9, #cdcdcd, #c1c1c1, #b5b5b5);
+}
+
+.navbar-light .navbar-brand{
+    color: aliceblue;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #1B6B0E;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: #6B0E0E;
+}
+
+

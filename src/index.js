@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+// import './index.css';
+// import HomePage from '../src/containers/HomePage/HomePage';
+import PublicRoutes from '../src/Routes'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <PublicRoutes />
   </React.StrictMode>,
   document.getElementById('root')
 );

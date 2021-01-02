@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+
+	background: url('https://media.istockphoto.com/photos/close-up-on-man-hand-using-tab-pad-on-laptop-to-working-about-of-picture-id1169192820?k=6&m=1169192820&s=612x612&w=0&h=ZLne-VuwHxk5JkLj4_YWsg2agj_ACShDQJ9uTBylDQM=') no-repeat center center;
+	background-size: cover ;
+	height: 650px;
+	font-size: 35px;
+ }
+ 
+
+div .homepage {
+	background-color: linear-gradient(215deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 100% 100%;
+	animation: gradient 4s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+  }
+  25% {
+		background-position: 75% 25%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
