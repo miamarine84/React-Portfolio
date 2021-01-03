@@ -53,6 +53,7 @@ function NavigationBar(props) {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+      <hr/>
     </div>
     </div >
 
