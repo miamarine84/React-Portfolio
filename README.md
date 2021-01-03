@@ -1,5 +1,5 @@
 
-<img src=" UM Certified.png" width="150" height="150" />
+<img src=" UM Certified.png" />
 
 
 
