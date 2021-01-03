@@ -1,14 +1,25 @@
+import React,{useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../Projects/style.css'
+import '../Projects/style.scss'
 import Nav from '../../components/NavBar/Navbar';
 import ProjectsPortion from '../../components/ProjectsPortion/ProjectsPortion'
 function Projects() {
+    const [show, setShow] = useState('none');
+    const [buttonHide, setButtonHide] = useState('block')
+    let test=()=>{
+        setShow('inline');
+        setButtonHide('none')
+    }
   return (
  
     <div>
       <Nav/>
       <ProjectsPortion/>
-      <div id='side-list'>
+      <button class="pulse" onClick={test} style={{display: `${buttonHide}`}}>Pulse</button>
+    
+
+
+      <div id='side-list' style={{display: `${show}`}}>
                 <ul>
                     <li id='test1'>
                         <a href='https://docs.google.com/document/d/1EmTwYSCCWO7OgSBuDVptaxlR8p0B4trT-A9chlmsZyI/edit' target='_blank'>

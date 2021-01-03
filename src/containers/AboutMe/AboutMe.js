@@ -1,5 +1,4 @@
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav from '../../components/NavBar/Navbar';
+import React from "react";import Nav from '../../components/NavBar/Navbar';
 import AboutMePortion from '../../components/AboutMePortion/AboutMePortion';
 import './style.css'
 
