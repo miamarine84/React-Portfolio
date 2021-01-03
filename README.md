@@ -1,7 +1,7 @@
 
 <img src="https://image.shutterstock.com/image-vector/coding-logo-template-illustration-design-260nw-684599965.jpg" data-canonical-src="https://image.shutterstock.com/image-vector/coding-logo-template-illustration-design-260nw-684599965.jpg" width="110" height="110" />
 
-<img src=" UM Certified.png" width="150" height="150" />
+<img src="UM Certified.png" data-canonical-src="UM Certified.png" width="110" height="110" />
 
 <img src="https://www.hqmc.marines.mil/portals/134/Mixed%20Media/EGA%203.jpg" data-canonical-src="https://www.hqmc.marines.mil/portals/134/Mixed%20Media/EGA%203.jpg" width="110" height="110" />
 
