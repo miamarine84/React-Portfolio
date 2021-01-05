@@ -23,16 +23,18 @@ function Projects() {
         <div>
             <Nav />
             <ProjectsPortion />
-            <button onClick={showUl} style={{ display: `${show}` }}>First
+            <button onClick={showUl} className={'animate'} style={{ display: `${show}` }}>Click <br/>
+            Here!
             </button>
 
-            <div id='side-list' >
+            {/* <div style={{ display: `${buttonHide}` }}> */}
+            <div >
                 <button onClick={hideUl} style={{ display: `${buttonHide}` }}>
-                    Pulse
+                    Hide <br/>Options
             </button>
-                <ul  style={{ display: `${buttonHide}` }}>
+                <ul id={'optionsList'} style={{ display: `${buttonHide}` }}>
                     <li>
-                        <a href='https://docs.google.com/document/d/1EmTwYSCCWO7OgSBuDVptaxlR8p0B4trT-A9chlmsZyI/edit' target='_blank'>
+                        <a  href='https://docs.google.com/document/d/1EmTwYSCCWO7OgSBuDVptaxlR8p0B4trT-A9chlmsZyI/edit' target='_blank'>
                             <img src='https://image.shutterstock.com/image-vector/resume-icon-260nw-477290071.jpg' />
 
                             <span>Resume</span>

@@ -1,20 +1,71 @@
-#test1{
-  display: none;
-}
-
 button{
   top:35vh;
   position: fixed;
+  
 }
 
+#optionsList{
+  position: fixed;
+  top: 45vh;
+}
 
 .card-deck{
     padding: 2% 2% 2% 2%;
 }
 
+button {
+	font-size: 14px;
+	border-radius: 0px;
+	border: solid 0px #3866A3;
+	color: #FFFFFF;
+	padding: 8px 9px;
+	background: linear-gradient(184deg, #b54c4c 39%, #ba2525 28%);
+	text-shadow: 1px 1px 0px #528ecc;
+	box-shadow: inset 1px 1px 2px 0px #bbdaf7;
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+// Button animation portion
+.animate {
+	-webkit-animation: swirl-in-fwd 0.6s ease-out both;
+          animation: swirl-in-fwd 0.6s ease-out both;
+
+}
+
+ @-webkit-keyframes swirl-in-fwd {
+  0% {
+    -webkit-transform: rotate(-540deg) scale(0);
+            transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes swirl-in-fwd {
+  0% {
+    -webkit-transform: rotate(-540deg) scale(0);
+            transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+// End of button animation
 
 #side-list{
-    position: fixed;
+    position: relative;
     top: 40vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-left: 8px;
