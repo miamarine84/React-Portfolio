@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Projects/style.scss'
 import Nav from '../../components/NavBar/Navbar';
-import ProjectsPortion from '../../components/ProjectsPortion/ProjectsPortion'
+import ProjectsPortion from '../../components/ProjectsPortion/ProjectsPortion';
 
 function Projects() {
     const [show, setShow] = useState('inline');
@@ -13,28 +13,26 @@ function Projects() {
         setButtonHide('inline')
     }
 
-    let hideUl= () => {
+    let hideUl = () => {
         setShow('inline')
         setButtonHide('none')
     }
 
     return (
-        // style={{ display: `${buttonHide}` }}
         <div>
             <Nav />
             <ProjectsPortion />
-            <button onClick={showUl} className={'animate'} style={{ display: `${show}` }}>Click <br/>
+            <button id="sideButton" onClick={showUl} className={'animate'} style={{ display: `${show}` }}>Click <br />
             Here!
             </button>
 
-            {/* <div style={{ display: `${buttonHide}` }}> */}
             <div >
-                <button onClick={hideUl} style={{ display: `${buttonHide}` }}>
-                    Hide <br/>Options
+                <button id="sideButton" onClick={hideUl} style={{ display: `${buttonHide}` }}>
+                    Hide <br />Options
             </button>
                 <ul id={'optionsList'} style={{ display: `${buttonHide}` }}>
                     <li>
-                        <a  href='https://docs.google.com/document/d/1EmTwYSCCWO7OgSBuDVptaxlR8p0B4trT-A9chlmsZyI/edit' target='_blank'>
+                        <a href='https://docs.google.com/document/d/1EmTwYSCCWO7OgSBuDVptaxlR8p0B4trT-A9chlmsZyI/edit' target='_blank'>
                             <img src='https://image.shutterstock.com/image-vector/resume-icon-260nw-477290071.jpg' />
 
                             <span>Resume</span>

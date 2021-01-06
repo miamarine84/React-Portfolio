@@ -12,7 +12,6 @@ function NavigationBar(props) {
   let NavDisplay =()=>{
     
   }
-  //  {navBarElement[0].hidden = true}
   return (
 
 
