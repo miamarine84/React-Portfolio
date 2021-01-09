@@ -15,11 +15,14 @@
 }
 
 #sideButton {
-	font-size: 14px;
-	border-radius: 0px;
-	border: solid 0px #3866A3;
+	font-size: 12px;
+	// border-radius: 0px;
+  border: solid px #3866A3;
+
+  border-top-right-radius: 110px;
+  border-bottom-right-radius: 110px;
 	color: #FFFFFF;
-	padding: 8px 9px;
+	padding: 12px 14px;
 	background: linear-gradient(184deg, #b54c4c 39%, #ba2525 28%);
 	text-shadow: 1px 1px 0px #528ecc;
 	box-shadow: inset 1px 1px 2px 0px #bbdaf7;
@@ -27,7 +30,7 @@
 	font-weight: bold;
 	text-align: center;
 	justify-content: center;
-	align-items: center;
+  align-items: center;
 }
 
 

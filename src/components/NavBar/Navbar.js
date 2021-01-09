@@ -7,17 +7,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function NavigationBar(props) {
-  let navBarElement = document.getElementsByClassName('navbar');
 
-  let NavDisplay =()=>{
-    
-  }
   return (
 
 
     <div>
-    <div  class='navbar sticky-top'>
-      <Navbar expand="lg">
+
+      <Navbar expand="lg" className='sticky-top'>
         <Navbar.Brand href="/home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -53,7 +49,6 @@ function NavigationBar(props) {
         </Navbar.Collapse>
       </Navbar>
       <hr/>
-    </div>
     </div >
 
   )

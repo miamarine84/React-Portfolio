@@ -25,13 +25,13 @@ function ProjectsPortion() {
               <ul>
                 <ul> 
                   <a href="https://miguelangelweill.github.io/CarsNotLemons/" rel="noreferrer" target='_blank'>
-                  <img src='https://seohacker.wpengine.com/wp-content/uploads/2011/07/Link-Search.jpg' alt='CarsNotLemons Project' rel="noreferrer"/> 
+                  <img src='https://seohacker.wpengine.com/wp-content/uploads/2011/07/Link-Search.jpg' alt='CarsNotLemons Project' /> 
                     Visit my site
                   </a>
                 </ul>
                 <ul>
-                  <a href="https://github.com/Miguelangelweill/CarsNotLemons" target='_blank'>
-                  <img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'/> 
+                  <a href="https://github.com/Miguelangelweill/CarsNotLemons" rel="noreferrer" target='_blank'>
+                  <img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' alt='Github logo' /> 
                     Visit it's Github repository
                   </a>
                 </ul>
@@ -49,14 +49,14 @@ function ProjectsPortion() {
               Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
               <ul>
                 <ul> 
-                  <a href="https://infinite-falls-09874.herokuapp.com/" target='_blank'>
-                  <img src='https://seohacker.wpengine.com/wp-content/uploads/2011/07/Link-Search.jpg'/> 
+                  <a href="https://infinite-falls-09874.herokuapp.com/" target='_blank'  rel="noreferrer">
+                  <img src='https://seohacker.wpengine.com/wp-content/uploads/2011/07/Link-Search.jpg' alt='Whats Cookin' /> 
                     Visit my site
                   </a>
                 </ul>
                 <ul>
-                  <a href="https://github.com/swatso2020/Project2" target='_blank'>
-                  <img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'/> 
+                  <a href="https://github.com/swatso2020/Project2" target='_blank' rel="noreferrer">
+                  <img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' alt='Github logo'/> 
                     Visit it's Github repository
                   </a>
                 </ul>
@@ -77,14 +77,15 @@ function ProjectsPortion() {
               Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
               <ul>
                 <ul> 
-                  <a href="https://peaceful-reaches-88708.herokuapp.com/home" target='_blank'>
-                  <img src='https://seohacker.wpengine.com/wp-content/uploads/2011/07/Link-Search.jpg'/> 
+                  <a href="https://peaceful-reaches-88708.herokuapp.com/home" target='_blank' rel="noreferrer">
+                  <img src='https://seohacker.wpengine.com/wp-content/uploads/2011/07/Link-Search.jpg' 
+                  alt='Stuffed'/> 
                     Visit my site
                   </a>
                 </ul>
                 <ul>
-                  <a href="https://github.com/miamarine84/Stuffed" target='_blank'>
-                  <img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'/> 
+                  <a href="https://github.com/miamarine84/Stuffed" target='_blank' rel="noreferrer">
+                  <img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' alt='Github logo' /> 
                     Visit it's Github repository
                   </a>
                 </ul>
