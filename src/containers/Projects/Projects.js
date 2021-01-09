@@ -21,8 +21,8 @@ function Projects() {
     return (
         <div>
             <Nav />
-            <br/>
-            <br/>
+            <br />
+            <br />
             <ProjectsPortion />
             <button id="sideButton" onClick={showUl} className={'animate'} style={{ display: `${show}` }}>Click <br />
             Here!
@@ -31,7 +31,7 @@ function Projects() {
             <div >
                 <button id="sideButton" onClick={hideUl} style={{ display: `${buttonHide}` }}>
                     Hide <br />Options
-            </button>
+                </button>
                 <ul id={'optionsList'} style={{ display: `${buttonHide}` }}>
                     <li>
                         <a href='https://docs.google.com/document/d/1EmTwYSCCWO7OgSBuDVptaxlR8p0B4trT-A9chlmsZyI/edit' target='_blank' rel="noreferrer">
@@ -42,14 +42,14 @@ function Projects() {
                     </li>
                     <li>
                         <a href='https://github.com/miamarine84' target='_blank' rel="noreferrer">
-                            <img src='https://alanferrandiz.files.wordpress.com/2020/09/github_logo.png' alt='github logo'/>
+                            <img src='https://alanferrandiz.files.wordpress.com/2020/09/github_logo.png' alt='github logo' />
 
                             <span>Github</span>
                         </a>
                     </li>
                     <li>
                         <a href='https://www.linkedin.com/in/marcos-p-898b701ab/' target='_blank' rel="noreferrer">
-                            <img src='https://image.shutterstock.com/image-vector/logo-icon-vector-template-260nw-1781944223.jpg' alt='linkedin logo'/>
+                            <img src='https://image.shutterstock.com/image-vector/logo-icon-vector-template-260nw-1781944223.jpg' alt='linkedin logo' />
 
                             <span>LinkedIn</span>
                         </a>
