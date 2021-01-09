@@ -3,7 +3,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "engines":{
+  "engines": {
     "node": "12.17.0",
     "npm": "6.14.4"
   },
@@ -12,6 +12,7 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
     "bootstrap": "^4.5.3",
+    "email-validator": "^2.0.4",
     "node-sass": "^4.14.1",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
