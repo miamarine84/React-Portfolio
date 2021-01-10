@@ -52,11 +52,14 @@ function ContactMePortion() {
   return (
 
     <div className="shade">
+      
       <br />
 
       <div className="blackboard">
+     
 
         <div className="form">
+        <p id='contact-note'>Please fill out this entire form and leave me a great message!</p>
           <div >
             {alert}
           </div>
@@ -84,7 +87,7 @@ function ContactMePortion() {
             <input onClick={formSubmitted} type="submit" defaultValue="Send" />
           </p>
         </div>
-
+   
       </div>
 
     </div>

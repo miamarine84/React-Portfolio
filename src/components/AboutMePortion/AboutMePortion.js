@@ -4,6 +4,7 @@ import './AboutMeStyle.scss';
 function AboutMePortion() {
   return (
     <div>
+      <br/>
       <div>
         <h4>
           I'm Marcos, a coffee lover ☕, 30-something-year-old front-end and back-end web developer 💻
