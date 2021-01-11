@@ -12,7 +12,7 @@ function MainPortion(){
   <br/>
   <h1>Hello, world!</h1>
   <p>
-Welcome to my page.....let's just start with a quick sample of my projects. Hope you enjoy my page created with ReactJS, React-Bootstrap and other NPM packages. 
+Welcome to my page.....let's just start with a quick sample of my projects. Hope you enjoy my page created with ReactJS, React-Bootstrap, Sass and other NPM packages. 
   </p>
   <br/>
   <br/>

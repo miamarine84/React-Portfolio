@@ -31,6 +31,10 @@ function ProjectsPortion() {
               <h6>
                 This project took in to consideration time and teamwork complexities even learning how to work with API's and the details that come with that. Through all of that our small team did what I feel is a great product. Learning how to deal with other developers building team cohesion through endless hours to be able to launch a project that I'm very proud of being a part of. As far as the API and integration it was fun now I enjoy looking through API's and their endless data, how complex yet simple it is.
               </h6>
+              <h5 id='languages-used'>
+                HTML5, CSS3, Javascript, JQuery, AJAX, GitHub 
+              </h5>
+            
 
               <ul>
  
@@ -66,7 +70,9 @@ function ProjectsPortion() {
               <h6>
                 My first full-stack website and that in itself was a great challenge. Learning how to deal with backend and the integration it needs to truly develop a clean and efficient product. Lots of research and time went in to what now I see as a great leap in my coding experience. I needed the push to get out of my comfort zone and this definitely did it. Through it I learnt that pushing yourself is the best way to learn something that brings me joy mainly after seeing such a nice finished product. 
               </h6>
-
+              <h5 id='languages-used'>
+                HTML5, CSS3, Javascript, API, NodeJS, Heroku, MySQL
+              </h5>
               <ul>
                 <ul> 
                   <a href="https://infinite-falls-09874.herokuapp.com/" target='_blank'  rel="noreferrer">
@@ -100,7 +106,9 @@ function ProjectsPortion() {
               <h6>
                 Being a project manager and dealing with such a complex project was challenging. But after a few days (because of deadlines) we produced a great MVP. One that is very functional and took lots of learnignt throughout. Learning more about React the whole way through. Complicated project but one that when completed I truly felt like a developer and ready to continue on this journey!
               </h6>
-
+              <h5 id='languages-used'>
+                HTML5, CSS3, ReactJS, API, NodeJS, Heroku, Mongoose
+              </h5>
               <ul>
                 <ul> 
                   <a href="https://peaceful-reaches-88708.herokuapp.com/home" target='_blank' rel="noreferrer">
