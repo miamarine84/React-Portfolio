@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Alert from 'react-bootstrap/Alert'
-import Spinner from '../../components/Spinner/spinner'
+// import Spinner from '../../components/Spinner/spinner'
 
 
 

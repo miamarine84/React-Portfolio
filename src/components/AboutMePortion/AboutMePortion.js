@@ -1,14 +1,26 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './AboutMeStyle.scss';
 
 function AboutMePortion() {
+  const [hook, setHook] = useState('none')
+
+const test =(e)=>{
+
+  //console.log( event._targetInst)
+
+  let p =  e._targetInst.sibling.memoizedProps.style.display;
+  console.log(p)
+  console.log(e.target.value)
+  setHook('inline')
+  
+}
   return (
     <div>
       <br/>
       <div>
         <h4>
           I'm Marcos, a coffee lover ☕, 30-something-year-old full-stack developer 💻
-          I truly enjoy creating things we can use on a daily basis I have enjoyed leaning my entire life and extremely passionate about coding. From becoming a Marine to a small business owner I always knew that at the end of the day web development has always been my first love 💙.
+          I truly enjoy creating things we can use on a daily basis I have enjoyed leaning my entire life and extremely passionate about coding. From becoming a Marine to a small business owner I always knew that at the end of the day web and software development has always been my first love 💙.
     
          
       </h4>
@@ -16,7 +28,11 @@ function AboutMePortion() {
       </div>
       <div id="particle-container">
         <div className="particle" >
-          <img id='image' src='https://www.w3.org/html/logo/img/mark-word-icon.png' alt='html 5 icon' />
+          <img id='image' onMouseEnter={(e)=>test(e)} src='https://www.w3.org/html/logo/img/mark-word-icon.png' alt='html 5 icon' />
+          <p style={{display: hook}}>
+            testing
+          </p>
+
         </div>
       
         <div className="particle" >
@@ -26,7 +42,12 @@ function AboutMePortion() {
           <img id='image' src='https://www.agnosticdev.com/sites/default/files/2016-01/npm-logo_1.png' alt='npm logo' />
         </div>
         <div className="particle" >
+          <a href="https://www.marines.mil/" rel="noreferrer" target='_blank'>
           <img id='image' src='https://www.freepnglogos.com/uploads/marine-corps-png-logo/u-s-marine-corps-birthday-png-logo-1.png' alt='USMC logo' />
+          <p style={{display: hook}}>
+            testing this also
+          </p>
+          </a>
         </div>
         <div className="particle" />
         <div className="particle" />

@@ -24,8 +24,8 @@ function ContactMe() {
       <Nav/>
 
       <ContactMePortion />
-      <button id="sideButton" onClick={showUl} className={'animate'} style={{ display: `${show}` }}>Click <br />
-            Here!
+      <button id="sideButton" onClick={showUl} className={'animate'} style={{ display: `${show}` }}>Contact <br />
+            Me!
             </button>
 
             <div >
